@@ -1,4 +1,6 @@
 
+''' Following the tutorial on Datacamp Exercise '''
+
 #1. Load UCBAdmissions dataset
 # the dataset is included in base R.
 
@@ -170,3 +172,8 @@ discrimination <- "the exercise of decision influenced by the sex of the applica
 
 # Does bias equal discrimination?
 bias == discrimination
+
+'''
+In conclusion, this graduate admission (at UCB, 1973) case is a useful reminder about 
+the dangers of aggregation and omitted variable bias, especially in relation to matters of such legal and ethical importance as discrimination. 
+Where bias does exist – as it does in the case of Department A – it is always worth considering whether there are any other factors that could explain the discrepancy. '''
