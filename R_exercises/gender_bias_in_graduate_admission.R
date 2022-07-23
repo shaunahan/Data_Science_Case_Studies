@@ -143,6 +143,7 @@ glm_genderdept <- glm(Admit ~ Gender + Dept, data = ucb_full, family = "binomial
 summary(glm_genderdept)
 '''
 We hypothesised that the effect of gender on acceptance is null when you control for department.
+(NB: The null hypothesis is usually "no effect", unless something else is specified).
 As departmental effect is not statistically significant (p > 0.05), we conclude that there was not a campus-wide bias against applicants of either gender in 1973.
 '''
 
