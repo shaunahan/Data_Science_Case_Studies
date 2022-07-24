@@ -179,4 +179,3 @@ In conclusion, this graduate admission (at UCB, 1973) case is a useful reminder 
 the dangers of aggregation and omitted variable bias, especially in relation to matters of such legal and ethical importance as discrimination. 
 Where bias does exist – as it does in the case of Department A – it is always worth considering whether there are any other factors that could explain the discrepancy. '''
 
-#hello!
