@@ -27,7 +27,8 @@ The goal of this project are: <Br>
 2. To determine which features are the most indicative of a good quality wine <br>
 
 <br>
-## Modelling
+# Modelling
+  
 For this project, I compared 8 different machine learning models, such as Random Forest Classifier, Multi Layer Perceptron, Gradient Boosting Classifier, Decision Tree, SVM, Logistic Regression, K Nearest Neighbors, and Gaussian NB. 
 <br>
 ![image](https://user-images.githubusercontent.com/90071614/181048123-fc5a4d7e-3a20-4580-9b72-aeab652ac2fa.png)
