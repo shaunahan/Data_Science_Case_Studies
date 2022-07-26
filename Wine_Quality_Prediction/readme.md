@@ -32,4 +32,4 @@ For this project, I compared 8 different machine learning models, such as Random
 <br>
 ![image](https://user-images.githubusercontent.com/90071614/181048123-fc5a4d7e-3a20-4580-9b72-aeab652ac2fa.png)
 
-In my models, Random Forest Classifier gave the highest accuracy of 78% , followed by Multi Layer Perceptron and Gradient Boosting Classifier.
+In my models, Random Forest Classifier gave the highest accuracy of 78.8% , followed by Multi Layer Perceptron and Gradient Boosting Classifier.
