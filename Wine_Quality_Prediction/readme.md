@@ -1,7 +1,6 @@
 # Wine Quality Prediction 
 
-For this project, I used UCI’s Red Wine Quality dataset to build various classification models to predict whether a particular red wine is “good quality” or not. <br> 
-Dataset: https://archive.ics.uci.edu/ml/datasets/Wine+Quality <br>
+For this project, I used UCI’s Red Wine Quality dataset to build various classification models to predict whether a particular red wine is “good quality” or not. Dataset: https://archive.ics.uci.edu/ml/datasets/Wine+Quality <br>
 Each wine in this dataset is given a “quality” score between 3 and 8. For the purpose of this project, I converted the output to a binary output where each wine is either “good quality” (a score of 6, 7, 8) or not (3,4,5). <br>
 <br>
 # About the Dataset 
