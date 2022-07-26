@@ -19,10 +19,10 @@ Density<Br>
 pH<Br>
 Sulfates<Br>
 Alcohol
-
-<Br><Br>
-# Objectives<br>
-The goal of this project are: <Br>
+<Br>
+  
+# Objectives
+The goals of this project are: <Br>
 1. To experiment with different classification methods to see which yields the highest accuracy<br>
 2. To determine which features are the most indicative of a good quality wine <br>
 
@@ -33,4 +33,4 @@ For this project, I compared 8 different machine learning models, such as Random
 <br>
 ![image](https://user-images.githubusercontent.com/90071614/181048123-fc5a4d7e-3a20-4580-9b72-aeab652ac2fa.png)
 
-In my model, Random Forest Classifier gave the highest accuracy of 78% , followed by Multi Layer Perceptron and Gradient Boosting Classifier.
+In my models, Random Forest Classifier gave the highest accuracy of 78% , followed by Multi Layer Perceptron and Gradient Boosting Classifier.
