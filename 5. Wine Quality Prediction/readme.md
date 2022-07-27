@@ -26,7 +26,7 @@ Alcohol
 ## Objectives
 The goals of this project are: <Br>
 1. To experiment with different classification methods to see which yields the highest accuracy<br>
-2. To determine which features are the most indicative of a good quality wine <br> <br>
+2. To determine which features are the most indicative of a good quality wine <br> 
 
   
 ## Data Preprocessing
