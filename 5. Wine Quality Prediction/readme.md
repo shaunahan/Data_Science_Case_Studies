@@ -29,14 +29,15 @@ The goals of this project are: <Br>
   
 ## Data Preprocessing
 First, I removed outliers using the z-score method, then with cleansed dataset, I observed correlations between different features. 
-I then converted the response variable (quality) into a binary form (good / bad quality). This time, I looked at the relationship that different features (chemicals) have on  quality, examined the most important features among the variables (Alcohol and sulphates have high correlation with the quality of wine), and also looked into the multicollinearity between features using varianceinflation factor.  <br>
+I then converted the response variable (quality) into a binary form (good / bad quality). <br>
+This time, I looked at the relationship that different features (chemicals) have on  quality, examined the most important features among the variables (Alcohol and sulphates have high correlation with the quality of wine), and also looked into the multicollinearity between features using varianceinflation factor.  <br>
 
 ## Modelling
   
-For this project, I compared 8 different machine learning models: Random Forest Classifier, Multi Layer Perceptron, Gradient Boosting Classifier, Decision Tree, SVM, Logistic Regression, K Nearest Neighbors, and Gaussian NB. Prior to building models, I scaled the train and test sets, and examined the optimal k-values (n_neighbors) for KNN Classifier; I looked at the k-value with lowest error rate and the highest accuracy, which was 8 for my KNN model. Then I found the best random features for each model. <br><br>
+For this project, I compared 8 different machine learning models: Random Forest Classifier, Multi Layer Perceptron, Gradient Boosting Classifier, Decision Tree, SVM, Logistic Regression, K Nearest Neighbors, and Gaussian NB. <br> Prior to building models, I scaled the train and test sets, and examined the optimal k-values (n_neighbors) for KNN Classifier; I looked at the k-value with lowest error rate and the highest accuracy, which was 8 for my KNN model. Then I found the best random features for each model. <br><br>
   
 Upon running the ML models, Random Forest Classifier had the highest accuracy score. To validate this claim, I ran the models again using cross validation. 
-The CV Mean Score also concided with our previous result, confirming our claim that Random Forest Classifier is the best model for classifying the quality of the red wine. To complete the random forest model, I used hyper-parameter tuning using gridsearchCV. The final test score gave 81% accuracy, which is pretty good! Also, this test score is parallel with the AUC score result. <br><br>
+The CV Mean Score also concided with our previous result, confirming our claim that Random Forest Classifier is the best model for classifying the quality of the red wine. <br> To complete the random forest model, I used hyper-parameter tuning using gridsearchCV. The final test score gave 81% accuracy, which is pretty good! Also, this test score is parallel with the AUC score result. <br><br>
 
 ![image](https://user-images.githubusercontent.com/90071614/181383597-19dfaf82-eab8-4a6f-a62f-9038cc78f60a.png)
 
