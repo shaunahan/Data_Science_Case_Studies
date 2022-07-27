@@ -28,7 +28,7 @@ The goals of this project are: <Br>
 
   
 ## Data Preprocessing
-First, I removed outliers using the z-score method, then with cleansed dataset, I observed correlations between different features. <br>
+First, I removed outliers using the z-score method, then with cleansed dataset, I observed correlations between different features. 
 I then converted the response variable (quality) into a binary form (good / bad quality). This time, I looked at the relationship that different features (chemicals) have on  quality, examined the most important features among the variables (Alcohol and sulphates have high correlation with the quality of wine), and also looked into the multicollinearity between features using varianceinflation factor.  <br>
 
 ## Modelling
@@ -42,3 +42,5 @@ The CV Mean Score also concided with our previous result, confirming our claim t
 
 ![image](https://user-images.githubusercontent.com/90071614/181383621-14b7995c-82bc-4e80-bf3a-90994cbbcabe.png)
 
+
+  
