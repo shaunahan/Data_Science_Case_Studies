@@ -22,7 +22,6 @@ pH<Br>
 Sulfates<Br>
 Alcohol
 <Br>
-<br>
 ## Objectives
 The goals of this project are: <Br>
 1. To experiment with different classification methods to see which yields the highest accuracy<br>
