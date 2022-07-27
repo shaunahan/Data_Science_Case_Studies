@@ -3,7 +3,7 @@
 <br>
 For this project, I used UCI’s Red Wine Quality dataset to build various classification models to predict whether a particular red wine is “good quality” or not. <br>
 Each wine in this dataset is given a “quality” score between 3 and 8. For the purpose of this project, I converted the output to a binary output where each wine is either “good quality” (a score of 6, 7, 8) or not (3,4,5). <br>
-<br><br>
+<br>
 
 ## About the Dataset 
 Dataset: (https://archive.ics.uci.edu/ml/datasets/Wine+Quality ) <br>
@@ -39,11 +39,11 @@ This time, I looked at the relationship that different features (chemicals) have
 For this project, I compared 8 different machine learning models: Random Forest Classifier, Multi Layer Perceptron, Gradient Boosting Classifier, Decision Tree, SVM, Logistic Regression, K Nearest Neighbors, and Gaussian NB. <br> Prior to building models, I scaled the train and test sets, and examined the optimal k-values (n_neighbors) for KNN Classifier; I looked at the k-value with lowest error rate and the highest accuracy, which was 8 for my KNN model. Then I found the best random features for each model. <br><br>
   
 Upon running the ML models, Random Forest Classifier had the highest accuracy score. To validate this claim, I ran the models again using cross validation. 
-The CV Mean Score also concided with our previous result, confirming our claim that Random Forest Classifier is the best model for classifying the quality of the red wine. <br> To complete the random forest model, I used hyper-parameter tuning using gridsearchCV. The final test score gave 80% accuracy, which is pretty good! Also, this test score is almost congruent with the AUC score of 79%. <br><br>
+The CV Mean Score also concided with our previous result, confirming our claim that Random Forest Classifier is the best model for classifying the quality of the red wine. <br> To complete the random forest model, I used hyper-parameter tuning using gridsearchCV. The final test score gave 80% accuracy, which is pretty good! Also, this test score is almost congruent with the AUC score of 79%. <br><br><br>
 
-![image](https://user-images.githubusercontent.com/90071614/181383597-19dfaf82-eab8-4a6f-a62f-9038cc78f60a.png)
+  ![image](https://user-images.githubusercontent.com/90071614/181385086-5fe533f9-6f81-4d41-a60b-6de4fab9d96a.png)
+![image](https://user-images.githubusercontent.com/90071614/181385097-d4ad9f29-b9bd-44d4-859d-6bc34ab46559.png)
 
-![image](https://user-images.githubusercontent.com/90071614/181383621-14b7995c-82bc-4e80-bf3a-90994cbbcabe.png)
 
 
   
