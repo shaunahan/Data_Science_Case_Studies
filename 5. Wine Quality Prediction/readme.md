@@ -27,10 +27,18 @@ The goals of this project are: <Br>
 2. To determine which features are the most indicative of a good quality wine <br>
 
   
+## Data Preprocessing
+First, I removed outliers using the z-score method, then with cleansed dataset, I observed correlations between different features. <br>
+I then converted the response variable (quality) into a binary form (good / bad quality). This time, I looked at the relationship that different features (chemicals) have on  quality, examined the most important features among the variables (Alcohol and sulphates have high correlation with the quality of wine), and also looked into the multicollinearity between features using varianceinflation factor.  <br>
+
 ## Modelling
   
-For this project, I compared 8 different machine learning models, such as Random Forest Classifier, Multi Layer Perceptron, Gradient Boosting Classifier, Decision Tree, SVM, Logistic Regression, K Nearest Neighbors, and Gaussian NB. 
+For this project, I compared 8 different machine learning models: Random Forest Classifier, Multi Layer Perceptron, Gradient Boosting Classifier, Decision Tree, SVM, Logistic Regression, K Nearest Neighbors, and Gaussian NB. Prior to building models, I scaled the train and test sets, and examined the optimal k-values (n_neighbors) for KNN Classifier; I looked at the k-value with lowest error rate and the highest accuracy, which was 8 for my KNN model. Then I found the best random features for each model. 
 <br>
-![image](https://user-images.githubusercontent.com/90071614/181048123-fc5a4d7e-3a20-4580-9b72-aeab652ac2fa.png)
+Upon running the ML models, Random Forest Classifier had the highest accuracy score. To validate this claim, I ran the models again using cross validation. 
+<br> The CV Mean Score also concided with our previous result, confirming our claim that Random Forest Classifier is the best model for classifying the quality of the red wine. To complete the random forest model, I used hyper-parameter tuning using gridsearchCV. The final test score gave 81% accuracy, which is pretty good! Also, this test score is parallel with the AUC score result.
 
-In my models, Random Forest Classifier gave the highest accuracy of 78.8% , followed by Multi Layer Perceptron and Gradient Boosting Classifier.
+![image](https://user-images.githubusercontent.com/90071614/181383597-19dfaf82-eab8-4a6f-a62f-9038cc78f60a.png)
+
+![image](https://user-images.githubusercontent.com/90071614/181383621-14b7995c-82bc-4e80-bf3a-90994cbbcabe.png)
+
