@@ -18,7 +18,7 @@ Dataset: Over 50,000 NIPS papers are stored in datasets/papers.csv. The CSV file
 ## Logics Behind
 Topic modeling is a method for unsupervised classification of documents, similar to clustering on numeric data, which finds groups of items (topics). 
 LDA is one of the most popular topic modeling methods. Each document is made up of various words, and each topic also has various words belonging to it. The aim of LDA is to find topics a document belongs to, based on the words in it.
-In order to perform LDA, we need to: 1) filter and simplify the dataset for analysis, 2) preprocess the text data, 3) vectorize the text data into numerical values which our models can consume. <br> 
+In order to perform LDA, we need to: 1) filter and simplify the dataset for analysis, 2) preprocess the text data, and 3) vectorize the text data into numerical values which our models can consume. <br> 
 
 
 ## Process
