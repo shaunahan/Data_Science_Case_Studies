@@ -11,8 +11,8 @@ Neural Information Processing Systems (NIPS) is one of the top machine learning 
 Goal: Find Hottest Topics in ML
 Analysis of a NIPS papers data set using LDA. Use Natural Language Processing on NIPS research papers from the past decade to discover the latest trends in machine learning research. The techniques used here to handle large amounts of data can be applied to other text datasets as well.
 <br> <br>
-Dataset: Over 50,000 NIPS papers are stored in datasets/papers.csv. The CSV file contains information on the different NIPS papers that were published from 1987 until 2017.
-<Br>Columns: id, year, title, event_type, pdf_name, abstract, paper_text
+Dataset: Over 50,000 NIPS papers are stored in datasets/papers.csv. The CSV file contains information on the different NIPS papers that were published from 1987 until 2017. <br>
+<br> Columns: id, year, title, event_type, pdf_name, abstract, paper_text
 <br>
   
 ## Logics Behind
@@ -22,6 +22,7 @@ In order to perform LDA, we need to 1) filter and simplify the dataset for analy
 
 <br> 
 ## Process
+
 1. Loading the NIPS papers 
 2. Preparing the data for analysis by dropping unnecessary columns, and observing the current data shape by making a plot.
 3. Preprocessing the text data by removing special characters, lowering characters, and creating a word cloud (visual representation of the most common words) to verify whether the preprocessing happened correctly.
