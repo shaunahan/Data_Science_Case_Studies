@@ -1,4 +1,6 @@
 # NLP_Text-Data-Model
 
-* **Text Data Model: Building a classification model using text data**
-* **NLP exercises**: classifying comments, extracting relations and building knowledge graphs, author identification of horror novels from text snippets.
+
+* Topic Modeling : preprocessed the raw text data (ie. removing stop words, lemmatization, tokenization, etc) and applied topic modellings to find the most prevalent themes in the text.
+* Text Analysis: Knowledge Graph, Word Clouds, Text models (logistic models with vectorizers (Count Vectorizer, TF-IDF Vectorizer, nltk), and author identification of horror novels from text snippets.
+
