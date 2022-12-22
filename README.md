@@ -13,16 +13,16 @@ on topics such as machine learning, NLP, data preprocessing/transformation, and 
     *  `Sports Celebrities Image Classification` : Used the Harr cascade to detect face and eyes in photos, and used wavelet transformation to compress the images for model training. Trained on different models (SVM, Random Forest, Logistic Regression) and assessed the score. <br>
     *  `Machine Learning HW` : a sample HW 
     
-* NLP <br>
+* __NLP__ <br>
    * `Topic Modeling` : preprocessed the raw text data (ie. removing stop words, lemmatization, tokenization, etc) and applied topic modellings to find the most prevalent themes in the text. <br>
    * `Text Analysis`: Knowledge Graph, Word Clouds, Text models (logistic models with vectorizers (Count Vectorizer, TF-IDF Vectorizer, nltk), and author classification model using logistic regression.
 
-* Data Preprocessing <br>
+* __Data Preprocessing__ <br>
     * classified keywords (shapes) in the dataset using the _similarity ratio_ <br>
     * NYC 311 Public Data Preprocessing 
     
-* Applied Finance <br>
+* __Applied Finance__ <br>
    * `Predicting Credit Card Approvals`: preprocess the dataset and fit a logistic regression model to the train set, make predictions and evaluate performance. <br>
    * `The Sharpe Ratio`: comparing the profitability and risk of Amazon and Facebook investments using the Sharpe Ratio. <br>
-* Exercises - R <br>
+* __Exercises in R__ <br>
    * `Gender Bias in Graduate Admission` <br>
