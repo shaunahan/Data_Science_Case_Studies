@@ -18,7 +18,7 @@ on topics such as machine learning, NLP, data preprocessing/transformation, and 
    * __Text Analysis__: Knowledge Graph, Word Clouds, Text models (logistic models with vectorizers (Count Vectorizer, TF-IDF Vectorizer, nltk), and author classification model using logistic regression.
 
 * Data Preprocessing <br>
-    * classified keywords (shapes) in the dataset using the similarity ratio <br>
+    * classified keywords (shapes) in the dataset using the _similarity ratio_ <br>
     * NYC 311 Public Data Preprocessing 
     
 * Applied Finance <br>
