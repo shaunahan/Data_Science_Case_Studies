@@ -5,12 +5,12 @@ on topics such as machine learning, NLP, data preprocessing/transformation, and 
 
 ## Projects 
 __1. Machine Learning <br>__
-    a. Home Price Prediction <br>
-    b. Flower Image Prediction <br>
-    c. Wine Quality Prediction <br>
-    d. Potato Disease Classification <br>
-    e. Sports Celebrities Image Classification <br>
-    f. Machine Learning HW  
+    * Home Price Prediction <br>
+    * Flower Image Prediction <br>
+    * Wine Quality Prediction <br>
+    * Potato Disease Classification <br>
+    *  Sports Celebrities Image Classification <br>
+    *  Machine Learning HW  
   <br>
 __2. NLP <br>__
       a. Topic Modeling <br>
