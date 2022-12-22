@@ -12,7 +12,7 @@ on topics such as machine learning, NLP, data preprocessing/transformation, and 
     *  Sports Celebrities Image Classification <br>
     *  Machine Learning HW  
   <br>
-* 2. NLP <br>
+* NLP <br>
    * Topic Modeling <br>
    * Text Analysis: Knowledge Graph, Word Clouds, Text models (logistic models with vectorizers (Count Vectorizer, TF-IDF Vectorizer, nltk), and author classification model using logistic regression. <br>
 
