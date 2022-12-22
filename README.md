@@ -12,7 +12,6 @@ on topics such as machine learning, NLP, data preprocessing/transformation, and 
  <br><br>
     *  __Sports Celebrities Image Classification__: Used the Harr cascade to detec face and eyes in photos, and used wavelet transformation to compress the images for model training. Trained on different models (SVM, Random Forest, Logistic Regression) and assessed the score. <br><br>
     *  __Machine Learning HW__ : a sample HW 
-    
 * NLP <br>
    * __Topic Modeling__ : preprocessed the raw text data (ie. removing stop words, lemmatization, tokenization, etc) and applied topic modellings to find the most prevalent themes in the text. <br>
    * __Text Analysis__: Knowledge Graph, Word Clouds, Text models (logistic models with vectorizers (Count Vectorizer, TF-IDF Vectorizer, nltk), and author classification model using logistic regression.
