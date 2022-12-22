@@ -1,7 +1,7 @@
 # NLP_Work
 
 
-* __1. Topic Modeling__ : preprocessed the raw text data (ie. removed stop words, tokenized words, cleaned up text, made bigrams and lemmatization, etc) and applied the Latent Dirichlet Allocation (LDA) model to find the most prevalent themes in the text. <br><br>
+* __1. Topic Modeling__ : preprocessed the raw text data (ie. removed stop words, tokenized words, cleaned up text, made bigrams and lemmatization, etc) and applied the Latent Dirichlet Allocation (LDA) model to find the most prevalent themes in the text. 
 
 * __2. Logistic Regression Text Model with vectorizers__: Built text classification models using vectorizers (Count Vectorizer, TF-IDF Vectorizer, nltk) 
 
