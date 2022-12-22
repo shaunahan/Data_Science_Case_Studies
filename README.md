@@ -5,8 +5,8 @@ on topics such as machine learning, NLP, data preprocessing/transformation, and 
 
 ## Projects 
 * Machine Learning <br>
-    * Home Price Prediction <br>
-    * Flower Image Prediction <br>
+    * __Home Price Prediction__: Use linear regression to predict the price of homes in Bangalore city. Pre-processed the data with outlier utlier detection and removal, feature engineering, and dimensionality reduction. <br>
+    * __Flower Image Prediction__: Flowers Classification using the VGG16 architecture. 2936 images of flowers (daisy, dandelion, roses, sunflowers, tulips) <br>
     * Wine Quality Prediction <br>
     * Potato Disease Classification <br>
     *  Sports Celebrities Image Classification <br>
