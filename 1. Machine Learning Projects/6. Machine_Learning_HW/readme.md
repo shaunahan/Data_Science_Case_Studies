@@ -1,1 +1,1 @@
-This repo contains a sample homework.
+This repo contains sample homework.
