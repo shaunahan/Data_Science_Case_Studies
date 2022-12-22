@@ -12,7 +12,6 @@ __1. Machine Learning <br>__
   e. Sports Celebrities Image Classification <br>
   f. Machine Learning HW  
   <br>
-
 __2. NLP <br>__
   a. Topic Modeling <br>
   b. Text Analysis: Knowledge Graph, Word Clouds, Text models (logistic models with vectorizers (Count Vectorizer, TF-IDF Vectorizer, nltk), and author classification model using logistic regression. <br>
