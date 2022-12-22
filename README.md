@@ -25,4 +25,4 @@ on topics such as machine learning, NLP, data preprocessing/transformation, and 
    * __Predicting Credit Card Approvals__: preprocess the dataset and fit a logistic regression model to the train set, make predictions and evaluate performance. <br>
    * __The Sharpe Ratio__: comparing the profitability and risk of Amazon and Facebook investments using the Sharpe Ratio. <br>
 * Exercises - R <br>
-   * Gender Bias in Graduate Admission <br>
+   * __Gender Bias in Graduate Admission__ <br>
