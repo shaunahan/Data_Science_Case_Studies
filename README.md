@@ -4,7 +4,7 @@ This repository contains projects and cases studies I have worked on over time u
 on topics such as machine learning, NLP, data preprocessing/transformation, and statistics.
 
 ## Projects 
-__1. Machine Learning <br>__
+__* Machine Learning <br>__
     * Home Price Prediction <br>
     * Flower Image Prediction <br>
     * Wine Quality Prediction <br>
